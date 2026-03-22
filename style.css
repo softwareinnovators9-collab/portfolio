@@ -47,17 +47,14 @@ body {
 }
 
 .avatar { 
-  width:50px; 
-  height:55px; 
-  border-radius:10px; 
+  width:40px; 
+  height:45px; 
+  border-radius:8px; 
   display:grid; 
   place-items:center; 
   font-weight:700; 
   color:#fff; 
-  background: linear-gradient(130deg, #388e3c, #1976d2); 
-  position:absolute; 
-  left:10px; 
-  top:10px; 
+  background: #388e3c; 
 }
 
 .eyebrow { 
