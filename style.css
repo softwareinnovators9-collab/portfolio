@@ -14,7 +14,7 @@
 html { scroll-behavior: smooth; }
 body {
    margin:0;
-    font-family:Inter, system-ui, -apple-system, Segoe UI, sans-serif;
+    font-family:'Roboto', system-ui, -apple-system, Segoe UI, sans-serif;
     background: radial-gradient(circle at 20% 10%, #1f355f 0%, #0b1220 35%, #060a14 100%); color: var(--text); 
     line-height:1.5; 
   }
@@ -138,7 +138,9 @@ nav ul {
   .hamburger { 
     display:flex; 
     flex-direction: column;
-    position: relative;
+    position: absolute;
+    right: 10px;
+    top: 10px;
   }
   .nav-wrap { position: relative; justify-content:space-between; }
   nav { 
@@ -413,5 +415,19 @@ nav ul {
   .profile-photo { width:80px; height:80px; }
   .hero-card { padding:14px; }
   .container { width:min(100%,94%); }
+  .hero-top {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .hero h2 {
+    text-align: center;
+  }
+  .hero .lead {
+    text-align: center;
+  }
+  .hero-actions {
+    justify-content: center;
+  }
 }
 
