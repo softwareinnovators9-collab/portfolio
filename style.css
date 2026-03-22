@@ -174,7 +174,7 @@ nav ul {
   gap:24px; align-items:center; 
 }
 
-.hero h2 { 
+.hero h3 { 
   margin:0.2rem 0 .6rem; 
   font-size:1.8rem; 
   line-height:1.25; 
@@ -406,7 +406,7 @@ nav ul {
     flex-wrap:wrap; 
     justify-content:center; 
   }
-  .hero h2 { font-size:1.6rem; }
+  .hero h3 { font-size:1.6rem; }
   .section-head h3 { font-size:1.55rem; }
   .contact-layout { gap:12px; }
   .contact-form button { width:100%; }
@@ -426,7 +426,7 @@ nav ul {
   .hero-top div {
     text-align: center;
   }
-  .hero h2 {
+  .hero h3 {
     text-align: center;
   }
   .hero .lead {
